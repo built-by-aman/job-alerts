@@ -1,37 +1,33 @@
-# Job Search Configuration
-# Define what jobs you want the system to look for
-
 search:
   keywords:
-    - "Backend Engineer"
-    - "Software Engineer"
-    - "SDE-2"
-    - "Node.js Developer"
-    - "Python Developer"
-    # Add or change based on your role
+    - "Data Engineer"
+    - "Senior Data Engineer"
+    - "Analytics Engineer"
+    - "Data Platform Engineer"
+    - "dbt Developer"
+    - "Snowflake Data Engineer"
 
   locations:
-    - "Bangalore"
+    - "Bengaluru"
     - "Remote"
-    - "Delhi"
+    - "Noida"
+    - "Delhi NCR"
     - "Hyderabad"
-    # Add cities you're open to
 
   experience_range:
-    min: 2    # years
-    max: 6    # years
+    min: 2
+    max: 6
 
   # Minimum salary you'd consider (in LPA)
-  min_salary_lpa: 15
+  min_salary_lpa: 24
 
   # How many days back to look for jobs (1 = only yesterday's jobs)
   days_back: 1
 
-# Portals to scan (set enabled: true/false)
 portals:
   naukri:
     enabled: true
-    max_results: 30       # jobs to fetch per search keyword
+    max_results: 30
     base_url: "https://www.naukri.com"
 
   instahyre:
@@ -45,30 +41,45 @@ portals:
     base_url: "https://www.linkedin.com/jobs"
 
   hirist:
-    enabled: false        # set true if you're in tech
+    enabled: true
     max_results: 15
     base_url: "https://www.hirist.tech"
 
   foundit:
-    enabled: false        # formerly Monster India
+    enabled: false
     max_results: 15
     base_url: "https://www.foundit.in"
 
-# Scoring thresholds
 scoring:
-  apply_threshold: 4.0      # jobs above this score → CV generated
-  consider_threshold: 3.0   # jobs between 3-4 → show but no CV
-  skip_threshold: 3.0       # jobs below this → log but skip
+  apply_threshold: 4.0
+  consider_threshold: 3.0
+  skip_threshold: 3.0
 
-# Company blacklist (companies you do NOT want to apply to)
 blacklist:
-  - ""   # add company names here
+  - "TCS"
+  - "Infosys"
+  - "Wipro"
+  - "HCL"
+  - "Tech Mahindra"
+  - "Cognizant"
+  - "Accenture"
+  - "Capgemini"
 
-# Company whitelist (priority companies — always evaluate even if keyword match is weak)
 whitelist:
   - "Razorpay"
   - "CRED"
   - "Zepto"
   - "Groww"
   - "PhonePe"
-  # Add your dream companies here
+  - "Swiggy"
+  - "Zomato"
+  - "Flipkart"
+  - "Meesho"
+  - "Freshworks"
+  - "Postman"
+  - "Browserstack"
+  - "Hasura"
+  - "Chargebee"
+  - "Databricks"
+  - "Atlan"
+  - "Acceldata"

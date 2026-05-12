@@ -1,102 +1,114 @@
-# Your Profile
-# Fill this with YOUR details. The more detail you give, the better the CV tailoring.
-
 personal:
-  name: "Your Name"
-  email: "you@email.com"
-  phone: "+91-XXXXXXXXXX"
-  location: "Shimla, Himachal Pradesh"  # or wherever you're based / open to relocate
-  linkedin: "https://linkedin.com/in/yourprofile"
-  github: "https://github.com/yourusername"  # optional
-  portfolio: ""  # optional
+  name: "Aman Verma"
+  email: "amanmehta2007@gmail.com"
+  phone: "+91-8091786525"
+  location: "Bengaluru, Karnataka"
+  linkedin: "https://linkedin.com/in/aman-verma-15851832a"
+  github: ""
+  portfolio: ""
 
-# Your current/most recent role
 current_role:
-  title: "Software Engineer"         # e.g. SDE-2, Senior Engineer, Tech Lead
-  company: "Current Company"
-  experience_years: 3                # total years of experience
-  notice_period: "30 days"           # or "Immediate", "60 days", etc.
-  current_ctc: "12 LPA"             # optional, used for salary negotiation context
-  expected_ctc: "18-22 LPA"
+  title: "Software Developer II"
+  company: "Sigmoid"
+  experience_years: 3
+  notice_period: "60 days"
+  current_ctc: "21 LPA"
+  expected_ctc: "27-31 LPA"
 
-# Your skills - be specific, these get matched against JDs
 skills:
   primary:
+    - "SQL"
     - "Python"
-    - "JavaScript"
-    - "Node.js"
+    - "Snowflake"
+    - "dbt (Core/Cloud)"
+    - "AWS"
   secondary:
-    - "React"
-    - "PostgreSQL"
-    - "Docker"
+    - "Apache Airflow"
+    - "ETL/ELT"
+    - "Data Modeling"
+    - "Amazon Redshift"
+    - "AWS Lambda"
+    - "AWS EventBridge"
+    - "AWS S3"
+    - "Data Lake Architecture"
   tools:
     - "Git"
-    - "AWS"
-    - "Linux"
+    - "REST APIs"
+    - "JSON/Parquet processing"
+    - "LaTeX"
+  domain:
+    - "CPG Supply Chain"
+    - "Traceability"
+    - "Inventory Optimization"
+    - "Regulatory Reporting"
   soft_skills:
-    - "Problem solving"
-    - "Team collaboration"
+    - "Systems thinking"
+    - "Cross-functional collaboration"
+    - "Technical ownership"
 
-# Your education
 education:
-  - degree: "B.Tech Computer Science"
-    institution: "Your College Name"
-    year: 2021
-    score: "8.2 CGPA"  # or percentage
+  - degree: "Bachelor of Engineering in Computer Science"
+    institution: "Chandigarh University"
+    year: 2022
+    score: "7.4 CGPA"
 
-# Work experience (most recent first)
-# Be detailed — this is what gets tailored per job
 experience:
-  - title: "Software Engineer"
-    company: "Company Name"
-    duration: "2022 - Present"
-    location: "Remote / City"
+  - title: "Software Developer II"
+    company: "Sigmoid"
+    duration: "Jan 2025 – Present"
+    location: "Bengaluru (Hybrid)"
     highlights:
-      - "Built X that improved Y by Z%"
-      - "Led a team of N engineers to deliver ABC"
-      - "Reduced latency from X ms to Y ms"
+      - "Architected Snowflake and dbt ETL pipelines for R&D dashboards, integrating 10K+ recipe, specification, and material records across logistics and procurement datasets"
+      - "Automated recipe–material reconciliation workflows, reducing operational effort by 40% and accelerating regulatory compliance validation"
+      - "Engineered an end-to-end traceability framework linking supplier data → recipe composition → finished goods → sales impact, reducing manual tracking by 35%"
 
-  - title: "Junior Developer"
-    company: "Previous Company"
-    duration: "2021 - 2022"
-    location: "City"
+  - title: "Software Developer I"
+    company: "Sigmoid"
+    duration: "Jan 2024 – Dec 2024"
+    location: "Bengaluru"
     highlights:
-      - "Worked on ABC feature used by X users"
-      - "Wrote unit tests increasing coverage from X% to Y%"
+      - "Led a Redshift/Snowflake orchestration engine executing 30+ stored procedures with dependency-aware parallel logic, reducing processing time by 25%"
+      - "Increased ingestion throughput by 40% using metadata-driven event architecture (EventBridge, Lambda, S3) for 100% automated data onboarding"
+      - "Optimized warehouse-to-S3 data exports for downstream analytics, improving delivery reliability and reducing manual intervention by 30%"
 
-# Projects (personal/open source — optional but adds value)
-projects:
-  - name: "Project Name"
-    description: "What it does, tech used, impact"
-    link: ""  # GitHub or live link
+  - title: "Associate Software Engineer"
+    company: "Sigmoid"
+    duration: "Jul 2022 – Dec 2023"
+    location: "Bengaluru"
+    highlights:
+      - "Built dynamic Inventory Optimization logic integrating forecast and expiration constraints, reducing reconciliation runtime by 96%"
+      - "Scaled warehouse transformations for large transactional datasets, supporting global enterprise reporting and demand signaling"
 
-# Certifications (optional)
-certifications:
-  - "AWS Certified Developer - Associate"
-  - "Google Professional Cloud Developer"
+projects: []
 
-# Your preferences (used to weight the evaluation score)
+certifications: []
+
 preferences:
   role_types:
-    - "Backend Engineer"
-    - "Full Stack Engineer"
-    - "SDE-2"
-  domains:                    # industries you prefer
+    - "Data Engineer"
+    - "Senior Data Engineer"
+    - "Analytics Engineer"
+    - "Data Platform Engineer"
+  domains:
     - "Fintech"
     - "SaaS"
-    - "Startups"
-  avoid:                      # things you want to avoid
-    - "On-site 6 days/week"
+    - "Product companies"
+    - "Data/Analytics platforms"
+  avoid:
     - "Purely frontend roles"
-  work_mode: "hybrid"         # remote / hybrid / on-site
+    - "Service/body-shop companies (TCS, Infosys, Wipro, etc.)"
+    - "Pure BI/reporting roles with no engineering"
+  work_mode: "remote"
   preferred_cities:
-    - "Bangalore"
     - "Remote"
-    - "Delhi NCR"
+    - "Bengaluru"
+    - "Noida"
+    - "Rest of world"
 
-# Career story (write 2-3 sentences in your own words)
-# This is what Claude uses to write your summary/objective per job
 career_summary: |
-  I am a software engineer with X years of experience building scalable backend systems.
-  I have strong experience in Python and Node.js, and have worked across fintech and SaaS products.
-  I am looking for roles where I can take ownership of product features and work with a strong engineering team.
+  I am a Data Engineer with 3+ years of experience building scalable data platforms on AWS
+  using Snowflake and dbt, specializing in CPG and manufacturing domains. I have a strong track
+  record in ETL/ELT pipeline architecture, large-scale migrations, and orchestration frameworks
+  that have delivered measurable efficiency gains across supply chain and R&D datasets.
+  I am looking for senior data engineering roles where I can own platform decisions, work with
+  a strong engineering culture, and move into product-first or fintech companies.
