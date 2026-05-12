@@ -1,0 +1,102 @@
+# Your Profile
+# Fill this with YOUR details. The more detail you give, the better the CV tailoring.
+
+personal:
+  name: "Your Name"
+  email: "you@email.com"
+  phone: "+91-XXXXXXXXXX"
+  location: "Shimla, Himachal Pradesh"  # or wherever you're based / open to relocate
+  linkedin: "https://linkedin.com/in/yourprofile"
+  github: "https://github.com/yourusername"  # optional
+  portfolio: ""  # optional
+
+# Your current/most recent role
+current_role:
+  title: "Software Engineer"         # e.g. SDE-2, Senior Engineer, Tech Lead
+  company: "Current Company"
+  experience_years: 3                # total years of experience
+  notice_period: "30 days"           # or "Immediate", "60 days", etc.
+  current_ctc: "12 LPA"             # optional, used for salary negotiation context
+  expected_ctc: "18-22 LPA"
+
+# Your skills - be specific, these get matched against JDs
+skills:
+  primary:
+    - "Python"
+    - "JavaScript"
+    - "Node.js"
+  secondary:
+    - "React"
+    - "PostgreSQL"
+    - "Docker"
+  tools:
+    - "Git"
+    - "AWS"
+    - "Linux"
+  soft_skills:
+    - "Problem solving"
+    - "Team collaboration"
+
+# Your education
+education:
+  - degree: "B.Tech Computer Science"
+    institution: "Your College Name"
+    year: 2021
+    score: "8.2 CGPA"  # or percentage
+
+# Work experience (most recent first)
+# Be detailed — this is what gets tailored per job
+experience:
+  - title: "Software Engineer"
+    company: "Company Name"
+    duration: "2022 - Present"
+    location: "Remote / City"
+    highlights:
+      - "Built X that improved Y by Z%"
+      - "Led a team of N engineers to deliver ABC"
+      - "Reduced latency from X ms to Y ms"
+
+  - title: "Junior Developer"
+    company: "Previous Company"
+    duration: "2021 - 2022"
+    location: "City"
+    highlights:
+      - "Worked on ABC feature used by X users"
+      - "Wrote unit tests increasing coverage from X% to Y%"
+
+# Projects (personal/open source — optional but adds value)
+projects:
+  - name: "Project Name"
+    description: "What it does, tech used, impact"
+    link: ""  # GitHub or live link
+
+# Certifications (optional)
+certifications:
+  - "AWS Certified Developer - Associate"
+  - "Google Professional Cloud Developer"
+
+# Your preferences (used to weight the evaluation score)
+preferences:
+  role_types:
+    - "Backend Engineer"
+    - "Full Stack Engineer"
+    - "SDE-2"
+  domains:                    # industries you prefer
+    - "Fintech"
+    - "SaaS"
+    - "Startups"
+  avoid:                      # things you want to avoid
+    - "On-site 6 days/week"
+    - "Purely frontend roles"
+  work_mode: "hybrid"         # remote / hybrid / on-site
+  preferred_cities:
+    - "Bangalore"
+    - "Remote"
+    - "Delhi NCR"
+
+# Career story (write 2-3 sentences in your own words)
+# This is what Claude uses to write your summary/objective per job
+career_summary: |
+  I am a software engineer with X years of experience building scalable backend systems.
+  I have strong experience in Python and Node.js, and have worked across fintech and SaaS products.
+  I am looking for roles where I can take ownership of product features and work with a strong engineering team.

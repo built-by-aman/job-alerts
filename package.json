@@ -1,0 +1,14 @@
+{
+  "name": "job-alerts",
+  "version": "1.0.0",
+  "description": "AI-powered job search for Indian portals",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scraper.js",
+    "search": "bash scripts/run.sh"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "playwright": "^1.40.0"
+  }
+}
