@@ -22,7 +22,7 @@ search:
   min_salary_lpa: 24
 
   # How many days back to look for jobs (1 = only yesterday's jobs)
-  days_back: 1
+  days_back: 3
 
 portals:
   naukri:
